@@ -3,7 +3,7 @@ BEGIN {
   $File::ShareDir::Tarball::AUTHORITY = 'cpan:YANICK';
 }
 {
-  $File::ShareDir::Tarball::VERSION = '0.2.0';
+  $File::ShareDir::Tarball::VERSION = '0.2.1';
 }
 # ABSTRACT: Deal transparently with shared files distributed as tarballs
 
@@ -89,7 +89,7 @@ File::ShareDir::Tarball - Deal transparently with shared files distributed as ta
 
 =head1 VERSION
 
-version 0.2.0
+version 0.2.1
 
 =head1 SYNOPSIS
 
@@ -132,6 +132,16 @@ Behaves just like C<dist_file()> from L<File::ShareDir>.
 =item L<Test::File::ShareDir>
 
 To test or use a shared dir that is not deployed yet. 
+
+=item L<Dist::Zilla::Plugin::ShareDir::Tarball>
+
+L<Dist::Zilla> plugin to create the tarball effortlessly.
+
+=item L<Module::Build::CleanInstall>
+
+Provides an alternative to this module by subclassing L<Module::Build> and,
+upon installation, remove the files from previous installations as given in
+the I<packlist>.
 
 =back
 
