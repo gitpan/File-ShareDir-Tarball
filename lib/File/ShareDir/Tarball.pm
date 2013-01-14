@@ -3,7 +3,7 @@ BEGIN {
   $File::ShareDir::Tarball::AUTHORITY = 'cpan:YANICK';
 }
 {
-  $File::ShareDir::Tarball::VERSION = '0.2.1';
+  $File::ShareDir::Tarball::VERSION = '0.2.2';
 }
 # ABSTRACT: Deal transparently with shared files distributed as tarballs
 
@@ -89,7 +89,7 @@ File::ShareDir::Tarball - Deal transparently with shared files distributed as ta
 
 =head1 VERSION
 
-version 0.2.1
+version 0.2.2
 
 =head1 SYNOPSIS
 

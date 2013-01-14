@@ -9,10 +9,8 @@ my %module_build_args = (
   "build_requires" => {
     "File::Find" => 0,
     "Module::Build" => "0.3601",
-    "Scalar::Util" => 0,
-    "Test::File::ShareDir" => 0,
-    "Test::More" => "0.94",
-    "perl" => "5.004"
+    "Test::File::ShareDir" => "v0.3.0",
+    "Test::More" => "0.88"
   },
   "configure_requires" => {
     "Module::Build" => "0.3601"
@@ -22,7 +20,7 @@ my %module_build_args = (
     "Yanick Champoux <yanick\@babyl.dyndns.org>"
   ],
   "dist_name" => "File-ShareDir-Tarball",
-  "dist_version" => "0.2.1",
+  "dist_version" => "0.2.2",
   "license" => "perl",
   "module_name" => "File::ShareDir::Tarball",
   "recommends" => {},

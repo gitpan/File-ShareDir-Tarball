@@ -4,7 +4,7 @@ File::ShareDir::Tarball - Deal transparently with shared files distributed as ta
 
 # VERSION
 
-version 0.2.1
+version 0.2.2
 
 # SYNOPSIS
 
@@ -58,7 +58,7 @@ the _packlist_.
 
 # AUTHOR
 
-Yanick Champoux <yanick@babyl.dyndns.org>
+Yanick Champoux <yanick@babyl.dyndns.org> [![endorse](http://api.coderwall.com/yanick/endorsecount.png)](http://coderwall.com/yanick)
 
 # COPYRIGHT AND LICENSE
 
